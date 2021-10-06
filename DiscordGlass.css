@@ -1,0 +1,376 @@
+/* Theme Created by Rasmagoric */
+
+.theme-dark {
+    --header-primary: #ececec;
+    --header-secondary: #b9bbbe;
+    --text-normal: #bdbdbd;
+    --text-muted: #727272;
+    --text-link: #6ce675;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #d72d2d;
+    --background-primary: #181818;
+    --background-secondary: #121212ee;
+    --background-secondary-alt: #0d0d0E;
+    --background-tertiary: #0B0B0B;
+    --background-accent: #35393eb8;
+    --background-floating: #0A0A0ABB;
+    --background-mobile-primary: #222;
+    --background-mobile-secondary: #222;
+    --background-modifier-hover: rgba(84, 84, 84, 0.24);
+    --background-modifier-active: rgba(84, 84, 84, 0.26);
+    --background-modifier-selected: #1d1d1d;
+    --background-modifier-accent: #111;
+    --background-mentioned: rgba(0, 93, 255, .1);
+    --background-mentioned-hover: rgba(0, 93, 255, .21);
+    --background-message-hover: #0f0f0f;
+    --background-help-warning: rgba(250, 166, 26, 0.1);
+    --background-help-info: rgba(0, 176, 244, 0.1);
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #111;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: #fff;
+    --focus-primary: #0066ff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: #1f1f1f;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #111;
+    --info-warning-foreground: #0066ff;
+}
+
+.theme-light {
+    --background-secondary: #f2f3f5a1;
+    --background-mentioned: rgba(0, 93, 255, .1);
+    --background-mentioned-hover: rgba(0, 93, 255, .21);
+    --background-accent: #5b718caa;
+    --info-warning-foreground: #0066ff;
+    --background-floating: #FFFFFFBB;
+}
+
+b, strong {
+    font-weight: 900;
+    color: var(--interactive-active);
+}
+
+.theme-dark .perksModal-fSYqOq, .theme-dark .container-1D34oG {
+    background-color: #111;
+}
+
+.theme-dark .wrapper-1-Fsb8{
+    background-color: #121212;
+}
+
+.content-98HsJk{
+    background-color: var(--background-secondary-alt);
+}
+
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+    border-radius: 0 0 0 40px;
+}
+
+.sidebar-2K8pFh {
+    width: 230px
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: #111111a6
+}
+
+.theme-dark .container-3ayLPN{
+    background-color: #11111155
+}
+
+.userPopout-xaxa6l, .jumpToPresentBar-G1R9s6, .container-enaOkj,
+.container-1KFiob, .theme-dark .headerNormal-T_seeN, .popoutRight-1veHKi.noArrow-2foL9g,
+.contentWrapper-SvZHNd, .languageSelector-2LVJrh, .unread-1xRYoj, .container-3ayLPN,
+.popoutContainer-1MXdqN, .submenu-2-ysNh, .emojiPicker-3PwZFl, .wrapper-129saQ, .messagesPopoutWrap-1MQ1bW {
+   backdrop-filter: blur(13px);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu, .footer-3UKYOU,
+.bodyInnerWrapper-26fQXj {
+    background-color: transparent;
+}
+ 
+.membersGroup-v9BXpm {
+    padding: 21px 8px 0 16px
+}
+
+.embed-IeVjo6 {
+    border-radius: 14px;
+}
+
+.input-2_SIlA {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .userPopout-xaxa6l {
+    background-color: #010101ba;
+}
+
+.userPopout-xaxa6l {
+    border-radius: 18px
+}
+
+/* set custom status modal*/
+
+.theme-dark .root-1gCeng {
+    background-color: #35353578;
+    backdrop-filter: blur(9px)
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: #0d0d0d;
+}
+
+/* Disabled button */
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+    background-color: #2c2c2d;
+}
+
+.markup-2BOw-j code {
+    background: #050505;
+}
+
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6 {
+    background-color: #131313;
+}
+
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: #282828;
+}
+
+.children-19S4PO::after {
+    background: transparent  !important
+}
+
+/* .wrapper-3t9DeA[aria-label~="Online"] rect{
+    fill: var(--text-link) !important
+}
+
+.wrapper-3t9DeA[aria-label~="Disturb"] .pointerEvents-2zdfdO{
+    fill: #ff7e16 !important
+}
+
+.wrapper-3t9DeA[aria-label~="Idle"] .pointerEvents-2zdfdO{
+    fill: #ffd556 !important
+} */
+
+.wrapper-3WhCwL {
+    border-radius: 5px;
+    color: #EEE;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: #ffffffc4;
+    backdrop-filter: blur(8px);
+}
+
+.theme-dark .container-1r6BKw.themed-ANHk51 {
+    background: #111111c4
+}
+
+.chatContent-a9vAAp {
+    transform: translateY(-45px)
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: -23px;
+    background-color: transparent
+}
+
+.scrollableContainer-2NUZem{
+    border-radius: 35px;
+    border: 1px solid #ffffff03;
+}
+
+.layout-2DM8Md {
+    border: 1px solid transparent;
+}
+
+.selected-aXhQR6 .layout-2DM8Md, .role-2irmRk{
+    border: 1px solid #ffffff0a;
+}
+
+.base-gE7OpD {
+    bottom: -45px;
+}
+
+.expandedFolderIconWrapper-Huv7rA svg{
+    color: rgb(62, 62, 62) !important
+}
+
+.reaction-1hd86g .emoji {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu{
+    background: #151515;
+    border: #222 solid 1px
+}
+
+.theme-light .reaction-1hd86g.reactionMe-wv5HKu{
+    background: rgb(245, 251, 251);
+    border: #c7cfd0 solid 1px
+}
+
+.activityEmoji-2GDGtF {
+    width: 15px;
+    height: 15px;
+}
+
+.activity-2Gy-9S {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.name-uJV0GL {
+    line-height: 21px;
+}
+
+.circleIconButton-1QV--U{
+    color: var(--text-link)
+}
+
+
+ /*  Bot Tag */
+
+.botTagRegular-2HEhHi, .barFill-23-gu- { 
+    background: var(--info-warning-foreground)
+}
+
+ /*  Folder server */
+
+.theme-light .folderIconWrapper-1_bOZe {
+    background-color: #fff !important
+}
+
+/*  Embeded Video play button */
+
+.wrapper-129saQ {
+    background-color: rgba(5, 5, 5, 0.6)
+}
+
+.theme-light .wrapper-129saQ {
+    background-color: rgba(5, 5, 5, 0.6)
+}
+
+ /*  searchbar */
+
+.searchBar-3dMhjb {
+    height: 29px;
+    padding: 0 4px;
+    transition: .2s;
+    border-radius: 30px
+}
+
+.search-2oPWTC .DraftEditor-root {
+    line-height: 24px
+}
+
+.searchBar-3dMhjb .icon-38sknP {
+    width: 30px;
+    height: 30px
+}
+
+/* you are viewing older messages */
+
+.barBase-1c2Rfb {
+    min-height: 40px;
+}
+
+.barButtonBase-2uLO1z {
+    transform: translateY(-5px);
+}
+
+.jumpToPresentBar-G1R9s6 {
+    bottom: -13px;
+}
+
+.form-2fGMdU::before {
+    width: 2.25rem;
+}
+
+ /*  @ mention username, page button, hover etc.  */
+
+.wrapper-3WhCwL, .activeButton-rvKcqq, .colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: #04e !important
+}
+
+.interactive:hover, .activeButton-rvKcqq:hover {
+    background-color: #06f !important
+}
+
+/* Context Menu */
+
+.theme-dark .menu-3sdvDG{
+    background: #0A0A0A
+} 
+
+.theme-light .menu-3sdvDG{
+    background: #FFF
+}  
+
+.theme-dark .submenu-2-ysNh{
+    background: #0A0A0ABB
+}
+
+.theme-light .submenu-2-ysNh{
+    background: var(--background-floating)
+}
+
+
+/* Selected Channel */
+.modeSelected-346R90 .content-1x5b-n{
+    border: 1px solid #ffffff03
+}
+.content-1x5b-n{
+    border-radius: 30px;
+    border: 1px solid transparent
+}
+
+/* Posted Images */
+
+.imageWrapper-2p5ogY{
+    border-radius: 6px;
+}
+
+/* replied Messages */
+
+.repliedMessage-VokQwo{
+    padding: 4px;
+    border-radius: 7px;
+    background-color: var(--background-tertiary)
+}
+
+.cozy-3raOZG .repliedMessage-VokQwo::before,
+.divider-ewBQKj {
+    display: none
+}
+
+/* Home Discord Logo selected */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: #05f
+}
+
+/* emoji not grayed out */
+.sprite-2iCowe {
+    filter: none !important
+}
+
+/* Divider for new messages */
+.divider-JfaTT5 {
+    --divider-color: #06f
+}
