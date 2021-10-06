@@ -16,7 +16,7 @@
   - https://raw.githubusercontent.com/Rasmagoric/Discord-Glass/main/DiscordGlass.css
 
 **3) If you use FireFox :  
-ㅤㅤㅤㅤㅤㅤㅤ- Go to `about:config` url and set `layout.css.backdrop-filter.enabled` to `true` to enable the blur effects.**
+  - Go to `about:config` url and set `layout.css.backdrop-filter.enabled` to `true` to enable the blur effects.**
 
 ##
 
