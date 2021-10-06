@@ -1,6 +1,7 @@
 # Discord-Glass
-A css theme that improves Discord's aesthetics. 
-True Dark mode ✔️ lots of Blur ✔️ Better Design ✔️
+- A css theme that improves Discord's aesthetics. 
+- ✔️ True Dark mode ✔️ lots of Blur ✔️ Better Design 
+- ✔️ Works with Light Mode if you want
 
 ![Screenshot](Dark.jpg)
 ![Screenshot](Light.jpg)
