@@ -15,7 +15,7 @@
 **2)** Go to `write a new style` in your `stylus` extension and paste the content of the `DiscordGlass.css` file ✔️
   - https://raw.githubusercontent.com/Rasmagoric/Discord-Glass/main/DiscordGlass.css
 
-**3) If you use FireFox :  
+**3) If you use FireFox :**
   - Go to `about:config` url and set `layout.css.backdrop-filter.enabled` to `true` to enable the blur effects.**
 
 ##
