@@ -13,4 +13,4 @@ A css theme that improves Discord's aesthetics.
 
 **2)**
 
-**3)If you use FireFox Go to `about:config` and set `layout.css.backdrop-filter.enabled` to **true** to enable the blur effects.**
+**3) If you use FireFox Go to `about:config` and set `layout.css.backdrop-filter.enabled` to **true** to enable the blur effects.**
