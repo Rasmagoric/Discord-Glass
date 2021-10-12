@@ -3,7 +3,7 @@
 - ✔️ True Dark mode ✔️ lots of Blur ✔️ Better Design 
 - ✔️ Works with Light Mode if you want
 
-![Screenshot](Dark Glass.png)
+![Screenshot](DarkGlass.png)
 ![Screenshot](Light.jpg)
 
 ## How to Use
