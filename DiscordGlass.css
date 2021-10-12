@@ -1,4 +1,4 @@
-/* Theme Created by Rasmagoric */
+/* Discord Glass by Rasmagoric */
 
 .theme-dark {
     --header-primary: #ececec;
@@ -118,12 +118,23 @@ b, strong {
 }
 
 .theme-dark .userPopout-xaxa6l {
-    background-color: #010101ba;
+    background-color: #010101ba
 }
 
 .userPopout-xaxa6l {
     border-radius: 18px
 }
+
+.panels-j1Uci_ {
+    border-top: 1px solid #6062641f
+}
+
+/* shadow header */
+
+.content-yTz4x3::before, .header-2V-4Sw{
+    box-shadow: 0 1px #6062641f
+}
+
 
 /* set custom status modal*/
 
@@ -221,8 +232,8 @@ b, strong {
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu{
-    background: #151515;
-    border: #222 solid 1px
+    background: #131313;
+    border: #232323 solid 1px
 }
 
 .theme-light .reaction-1hd86g.reactionMe-wv5HKu{
@@ -248,6 +259,12 @@ b, strong {
     color: var(--text-link)
 }
 
+.guildSeparator-33mFX6 {
+    height: 1px;
+    width: 100%;
+    border-radius: 0px
+}
+
 
  /*  Bot Tag */
 
@@ -269,6 +286,15 @@ b, strong {
 
 .theme-light .wrapper-129saQ {
     background-color: rgba(5, 5, 5, 0.6)
+}
+
+/*  Separator on left bar */
+
+.guildSeparator-EOYZLM {
+    height: 1px;
+    width: 100%;
+    border-radius: 1px;
+    background-color: var(--background-modifier-accent);
 }
 
  /*  searchbar */
