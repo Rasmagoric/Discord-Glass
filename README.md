@@ -4,7 +4,7 @@
 - ✔️ Works with Light Mode if you want
 
 ![Screenshot](DarkGlass.png)
-![Screenshot](Light.jpg)
+![Screenshot](LightGlass.png)
 
 ## How to Use
 
